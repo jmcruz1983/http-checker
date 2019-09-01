@@ -1,0 +1,13 @@
+info:
+  name: http-checker
+  version: ${APPLICATION_VERSION:1.0.0}
+
+spring:
+  main:
+    web-application-type: none
+
+logging:
+  level.: info
+
+AmazonCheckIp:
+  url: ${CHECK_IP_URL:http://checkip.amazonaws.com/}
